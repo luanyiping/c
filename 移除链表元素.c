@@ -31,6 +31,7 @@ struct ListNode* removeElements(struct ListNode* head, int val)
 
 
 typedef struct ListNode ListNode;
+
 ListNode* CreateListNode()
 {
     ListNode* DummyNode = (ListNode*)malloc(sizeof(ListNode));
